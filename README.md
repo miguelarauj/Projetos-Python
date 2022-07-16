@@ -1,2 +1,2 @@
 # Projetos Python
- Repositório com exercícios resolvidos em Python.
+ Repositório com exercícios e mini-projetos resolvidos em Python.
