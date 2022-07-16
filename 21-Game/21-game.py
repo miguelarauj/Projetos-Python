@@ -1,5 +1,3 @@
-"""_21_
-    """
 import random
 t = 0
 r = input('continuar? ')
