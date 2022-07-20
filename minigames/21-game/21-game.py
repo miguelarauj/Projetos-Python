@@ -35,6 +35,6 @@ CARTA: {pc}''')
         resp = input('Deseja continuar? [ENTER/N]')
         if resp == 'n' or resp == 'N':
             break
-for c in range(0,p):
+for c in range(0, p):
     print(f'Jogdor: {lista_nomes[c]}')
     print(lista_pontos)
