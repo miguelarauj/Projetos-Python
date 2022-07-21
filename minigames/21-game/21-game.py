@@ -5,11 +5,11 @@ for c in range(0, p):
     c = c+1
     j = input(f'Jogador {c}: ')
     lista_nomes.append(j)
-print(f'''JOGADORES:
-{lista_nomes}''')
+print('JOGADORES:')
+for qnt in range(0, p):
+    print(lista_nomes[qnt])
 cont = 0
 while True:
-    lista_pontos = []
     cont = cont+1
     if cont > p:
         break
@@ -18,8 +18,8 @@ while True:
     while True:
         pc = randint(1, 10)
         t = t+pc
-        for c in range(0, p):
-            lista_pontos.append(t)
+        lista_pontos = []
+        lista_pontos.append(t)
         print(f'''
 CARTA: {pc}''')
         print(f'''TOTAL: {t}
