@@ -4,7 +4,7 @@ import random
 import sys
 u = 0
 while True:
-    s=0
+    s = 0
     n_pc = random.randint(0, 5)
     ip_pc = random.randint(1, 2)
     if ip_pc == 2:
@@ -29,7 +29,7 @@ while True:
         r = 'IMPAR'
     if r == ip_u:
         g = 'USUÁRIO'
-        u+=1
+        u += 1
     elif r == ip_pc:
         g = 'PC'
     print(f'RESULTADO: {r}\n{g} GANHOU!')
