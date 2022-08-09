@@ -3,7 +3,7 @@ n_maior = n_menor = ' '
 while True:
     c = +1
     nome = input('Produto: ')
-    valor = int(input('Valor: '))
+    valor = int(input('Valor: R$'))
     if c == 1:
         menor = maior = valor
     else:
@@ -17,6 +17,8 @@ while True:
     if valor > 1000:
         caro += 1
     per = input('\nDESEJA CONTINUAR? ').upper()
+    while per!='S' and per!='N':
+        per = input('\nDESEJA CONTINUAR? ').upper()
     if per == 'N':
         break
 print(
