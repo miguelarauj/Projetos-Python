@@ -1,7 +1,7 @@
 caro = total = maior = menor = c = 0
 n_maior = n_menor = ' '
 while True:
-    c = +1
+    c += 1
     nome = input('Produto: ')
     valor = int(input('Valor: R$'))
     if c == 1:
@@ -17,9 +17,9 @@ while True:
     if valor > 1000:
         caro += 1
     per = input('\nDESEJA CONTINUAR? ').upper()
-    while per!='S' and per!='N':
+    while per != 'S' and per != 'N':
         per = input('\nDESEJA CONTINUAR? ').upper()
     if per == 'N':
         break
 print(
-    f'\nTOTAL: {total}\n{caro} produtos custam mais de R$1000,00\nMAIS BARATO: {n_menor} R${menor}')
+    f'\nTOTAL: {total:.2f}\n{caro} produtos custam mais de R$1000,00\nMAIS BARATO: R${menor:.2f}')
